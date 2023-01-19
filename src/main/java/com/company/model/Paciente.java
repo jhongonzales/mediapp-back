@@ -19,7 +19,7 @@ public class Paciente {
     @Column(nullable = false, length = 70)
     private String apellidos;
 
-    @Column(nullable = false, length = 8)
+    @Column(nullable = false, length = 8, unique = true)
     private String dni;
 
     @Column(nullable = false, length = 70)
