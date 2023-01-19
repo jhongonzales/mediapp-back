@@ -10,10 +10,10 @@ public class PacienteDto {
 
     private Integer idPaciente;
 
-    @Size(min=3, message = "Nombres debe tener mínimo 3 caracteres")
+    @Size(min=2, message = "Nombres debe tener mínimo 2 caracteres")
     private String nombres;
 
-    @Size(min=3, message = "Apellidos debe tener mínimo 3 caracteres")
+    @Size(min=2, message = "Apellidos debe tener mínimo 2 caracteres")
     private String apellidos;
 
     @Size(min=8,max=8, message = "DNI debe tener 8 caracteres")
