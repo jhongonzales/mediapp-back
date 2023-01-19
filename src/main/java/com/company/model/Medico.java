@@ -22,7 +22,7 @@ public class Medico {
     @Column(nullable = false, length = 70, unique = true)
     private String cmp;
 
-    @Column(nullable = true, length = 70)
+    @Column(nullable = true, length = 200)
     private String fotoUrl;
 
 }
